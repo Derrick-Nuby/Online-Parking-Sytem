@@ -6,7 +6,7 @@
     --accent: #64507c;
 }
 
-main {
+.main {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -56,14 +56,24 @@ input:active {
     outline: none;
 }
 
-footer {
-    /* margin-top: 100px; */
-}
-
 #unparkform {
     margin-top: 100px;
 }
 
 .middle {
     text-align: center;
+}
+
+.small {
+    font-size: 14px;
+    color: white;
+}
+
+.small a {
+    color: aqua;
+}
+
+button[type=submit]:hover {
+    background-color: aqua;
+    border: none;
 }
