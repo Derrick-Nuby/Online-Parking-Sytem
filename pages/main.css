@@ -1,0 +1,69 @@
+:root {
+    --text: #12171c;
+    --background: #f9fafb;
+    --primary: #021D33;
+    --secondary: #cbc1d7;
+    --accent: #64507c;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/bgcar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.ptitle {
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    /* color: var(--background); */
+    margin: 50px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw; 
+    background-color: var(--primary);
+    padding: 50px 30px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--background);
+    margin: 0px 0px 10px 0px;
+}
+
+input, select {
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 20px;
+
+}
+
+select {
+    padding: 10px;
+}
+
+input:active {
+    outline: none;
+}
+
+footer {
+    /* margin-top: 100px; */
+}
+
+#unparkform {
+    margin-top: 100px;
+}
+
+.middle {
+    text-align: center;
+}
